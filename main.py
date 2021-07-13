@@ -31,6 +31,7 @@ while True:
         print('다시 입력해주세요')
 
 unit = units[unit_index][0](temperature, pressure)
+print('-' * 20)
 unit.print_status()
 while True:
     try:
