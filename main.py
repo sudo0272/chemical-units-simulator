@@ -35,6 +35,7 @@ print('-' * 20)
 unit.print_status()
 while True:
     try:
+        print('-' * 20)
         args = input(' > ')
 
         if args == 'q':
